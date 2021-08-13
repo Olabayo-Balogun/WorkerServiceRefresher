@@ -31,6 +31,7 @@ namespace WebsiteStatus
         public override Task StopAsync(CancellationToken cancellationToken)
         {
             client.Dispose();
+            _logger.LogInformation("Afrotada Website Status service has been stopped");
             return base.StopAsync(cancellationToken);
         }
 
