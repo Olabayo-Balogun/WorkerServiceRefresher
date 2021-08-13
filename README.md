@@ -15,8 +15,8 @@ Step 3: Register the service by opening PowerShell and running the code snippet 
 NOTE: It is important you run PowerShell as an administrator.
 sc.exe create WebsiteStatus binpath= C:\Users\Public\Documents\WorkerService\WebsiteStatus.exe start= auto
 
-WHERE:	sc.exe indicates the type of program you want to run/
-	create is used to create the project/
+WHERE:	sc.exe indicates the type of program you want to run<br /> 
+	create is used to create the project<br /> 
 	WebsiteStatus is the specified name of the application (you’re advised to make sure it matches the name of your Visual Studio project but normally, it’s up to you)<br /> 
 	binpath= specifies the location where the application should be created<br /> 
 	C:\Users\Public\Documents\WorkerService\WebsiteStatus.exe specifies the location of the created application<br /> 
