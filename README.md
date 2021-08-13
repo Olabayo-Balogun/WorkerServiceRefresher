@@ -17,15 +17,15 @@ sc.exe create WebsiteStatus binpath= C:\Users\Public\Documents\WorkerService\Web
 
 WHERE:	sc.exe indicates the type of program you want to run
 
-		create is used to create the project
+	create is used to create the project
 
-		WebsiteStatus is the specified name of the application (you’re advised to make sure it matches the name of your Visual Studio project but normally, it’s up to you)
+	WebsiteStatus is the specified name of the application (you’re advised to make sure it matches the name of your Visual Studio project but normally, it’s up to you)
 
-		binpath= specifies the location where the application should be created
+	binpath= specifies the location where the application should be created
 
-		C:\Users\Public\Documents\WorkerService\WebsiteStatus.exe specifies the location of the created application
+	C:\Users\Public\Documents\WorkerService\WebsiteStatus.exe specifies the location of the created application
 
-		start= auto tells the project to automatically run.
+	start= auto tells the project to automatically run.
 
 Step 4: search for “services” in the search box in the Windows taskbar and check for the newly created service.
 
